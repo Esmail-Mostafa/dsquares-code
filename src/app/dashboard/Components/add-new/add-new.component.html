@@ -1,0 +1,193 @@
+<main>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-3 col-sm-2">
+        <app-side-bar></app-side-bar>
+      </div>
+      <div class="col-1 col-sm-1"></div>
+      <div class="col-8">
+        <div class="d-flex justify-content-between mt-5">
+          <h6 class="ResponseiveFontSide">
+            Categoty/Callenge/<span class="TitleColor">Add New</span>
+          </h6>
+          <p class="ResponseiveFontSide">
+            Last database update:
+            <span class="TitleColor">Sep 20, 2022</span>
+          </p>
+        </div>
+        <!-- progerss bar -->
+        <div class="card progressSection p-3">
+          <div class="d-flex justify-content-between">
+            <p class="ms-4">3. Select Rewards</p>
+            <p class="me-4">3 / 4 steps</p>
+          </div>
+          <ul class="">
+            <li class="step1"></li>
+            <li class="step2"></li>
+            <li class="step3"></li>
+            <li class="step4 me-4"></li>
+          </ul>
+        </div>
+        <div>
+          <div class="card mt-5">
+            <div
+              class="d-flex justify-content-between px-4 pt-3"
+              style="background-color: #f6f6f6"
+            >
+              <p class="">
+                1st Reward
+                <span><i class="bi bi-pencil-square"></i> </span>
+              </p>
+              <div class="">
+                <i
+                  class="bi bi-trash3-fill me-3 fs-5"
+                  style="color: #de0000"
+                ></i>
+                <i class="bi bi-chevron-compact-up fs-5 fw-bold"></i>
+              </div>
+            </div>
+            <!-- section two Date -->
+            <div>
+              <form class="row g-5 needs-validation p-4">
+                <div class="col-md-3">
+                  <label for="validationCustom01" class="form-label"
+                    >Password <span class="astrcs">*</span></label
+                  >
+                  <select name="Points" id="" class="form-select">
+                    <option selected value="Points">Points</option>
+                  </select>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom02" class="form-label"
+                    >Points <span class="astrcs">*</span></label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="validationCustom02"
+                    value="100"
+                    required
+                  />
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom02" class="form-label"
+                    >Expiary Duration <span class="astrcs">*</span></label
+                  >
+                  <div class="d-flex">
+                    <input
+                      type="number"
+                      class="form-control w-25 me-2"
+                      value=""
+                    />
+                    <select name="Points" id="" class="form-select">
+                      <option selected value="Points">Manths</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom02" class="form-label">Tag</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustom02"
+                    value="Otto"
+                    required
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- butten and or -->
+
+          <div class="BackLine m-auto"></div>
+          <div class="swch-radio-picker text-center">
+            <div class="swch-hold">
+              <input
+                type="radio"
+                id="tbr1"
+                class="swch-rad"
+                name="swch"
+                checked
+              />
+              <label for="tbr1">and </label>
+            </div>
+            <div class="swch-hold">
+              <input type="radio" id="tbr2" class="swch-rad" name="swch" />
+              <label for="tbr2">or</label>
+            </div>
+          </div>
+          <div class="BackLine m-auto"></div>
+
+          <!-- section two Date -->
+          <div class="card">
+            <div
+              class="d-flex justify-content-between px-4 pt-3"
+              style="background-color: #f6f6f6"
+            >
+              <p class="">
+                2st Reward
+                <span><i class="bi bi-pencil-square"></i> </span>
+              </p>
+              <div class="">
+                <i
+                  class="bi bi-trash3-fill me-3 fs-5"
+                  style="color: #de0000"
+                ></i>
+                <i class="bi bi-chevron-compact-up fs-5"></i>
+              </div>
+            </div>
+            <!-- section two Date -->
+            <div>
+              <form class="row g-5 needs-validation p-4">
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label"
+                    >Password <span class="astrcs">*</span></label
+                  >
+                  <select name="Points" id="" class="form-select">
+                    <option selected value="Points">Vouchers</option>
+                  </select>
+                </div>
+
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label"
+                    >Offer Group <span class="astrcs">*</span></label
+                  >
+                  <div class="d-flex">
+                    <input type="number" class="form-control" value="" />
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label"
+                    >Text code</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustom02"
+                    value=""
+                    required
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="BackLine m-auto"></div>
+            <button class="btn btnMoving">
+              <span><i class="bi bi-plus"></i></span> Add new Reward
+            </button>
+          </div>
+          <!-- last two butten -->
+          <div class="d-flex justify-content-end py-5">
+            <button class="btn me-3 px-4" style="background-color: #b4b4b4">
+              cancel
+            </button>
+            <button class="btn px-4" style="background-color: #0889bc">
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
